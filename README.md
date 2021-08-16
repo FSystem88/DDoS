@@ -6,7 +6,7 @@
     git clone https://github.com/R00tS3c/Layer7-MultiBypass l7mb
     cd l7mb
     rm -rf proxies.txt
-    wget -O proxies.txt https://api.proxyscrape.com/?request=getproxies
+    wget -O proxies.txt https://api.proxyscrape.com/v2/?request=getproxies
     npm install
 
 ## Запуск
